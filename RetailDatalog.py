@@ -27,19 +27,6 @@ dfnew['ProductWeight']=dfnew['ProductWeight'].replace(0,round(mean))
 # print(dfnew['ProductWeight'])
 mean1=dfnew['Outlet_Size'].mean()
 dfnew['Outlet_Size']=dfnew['Outlet_Size'].replace(0,round(mean1))
-# print(dfnew['Outlet_Size'])
-# dfnew.to_csv("C:\\Users\\91885\\Downloads\\RetailDatalog_cleaned1.csv")
-##Hypothesis test
-# from scipy.stats import ttest_ind
-# stat,p=ttest_ind(X,Y)
-# print(p)
-zscore=(dfnew-dfnew.mean())/dfnew.std()
-print(zscore)
-##anova f-test analysis on variance
-from scipy.stats import f_oneway
-stat,p=f_oneway(dfnew,zscore)
-print(p)
-## p value is less than 0.5 so this is regression problem
 df_reg=pd.read_csv("C:\\Users\\91885\\Downloads\\RetailDatalog_cleaned1.csv")
 X=df_reg.drop(['Item_Outlet_Sales'],axis=1)
 print(X)
