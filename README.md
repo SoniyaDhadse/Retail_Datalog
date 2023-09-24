@@ -1,7 +1,7 @@
 ## RetailDatalog
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![VS Code](https://img.shields.io/badge/VS%20Code-Supported-green)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-Supported-orange)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-1.0.0-blue.svg)](https://code.visualstudio.com/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 1. [GithubAccount](https://github.com)
 2. [VSCodeIDE](https://code.visualstudio.com/)
