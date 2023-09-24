@@ -6,7 +6,7 @@
 
 ## Description
 
-RetailDatalog built model to identify product-category according to outlet-location by using sk-learn library.
+In RetailDatalog, built model to identify product-category according to outlet-location by using sk-learn library.
 
 ## Features
 
